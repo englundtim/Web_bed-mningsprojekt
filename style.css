@@ -1,6 +1,6 @@
 body{
     display: grid;
-    grid-template-rows: auto 1fr 50% 1fr;
+    grid-template-rows: auto 1fr auto 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     background-image: url(./img/backround.png);
     background-repeat: no-repeat;
@@ -41,15 +41,37 @@ header{
 main{
     grid-column: 1/span3;
     grid-row: 3;
+    display: flex;
+    flex: content;
+    flex-direction: row;
+    margin: 10px;
 }
 .recept{
     background-color: #FFBAE3;
+    margin: 10px;
+    border: 2px solid #FFBAE3;
+    border-radius: 10px;
 
 }
 .to-do{
     background-color: #FFBAE3;
+    margin: 10px;
+    max-width: 40%;
+    border: 2px solid #FFBAE3;
+    border-radius: 10px;
 }
 .description{
     background-color: #FFBAE3;
+    margin: 10px;
+    max-width: 350px;
+    text-align: center;
+    border: 1px solid #FFBAE3;
+    border-radius: 10px;
 
+}
+.smoothie-size{
+    max-width: 300px;
+    max-height: auto;
+    padding-top: 3px;
+    
 }
