@@ -6,6 +6,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.logo-grid{
+    grid-column: 1/ span 3;
+}
 .logo{
     max-height: 100px;
     max-width: auto;
@@ -34,4 +37,19 @@ header{
     padding-left: 500px;
     color: #588E1F;
     font-size: xx-large;
+}
+main{
+    grid-column: 1/span3;
+    grid-row: 3;
+}
+.recept{
+    background-color: #FFBAE3;
+
+}
+.to-do{
+    background-color: #FFBAE3;
+}
+.description{
+    background-color: #FFBAE3;
+
 }
