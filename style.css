@@ -1,6 +1,6 @@
 body{
     display: grid;
-    grid-template-rows: auto 1fr auto 1fr;
+    grid-template-rows: auto auto auto auto;
     grid-template-columns: 1fr 1fr 1fr;
     background-image: url(./img/backround.png);
     background-repeat: no-repeat;
@@ -12,13 +12,14 @@ body{
 .logo{
     max-height: 100px;
     max-width: auto;
-
 }
 header{
     background-color: #FFBAE3;
     grid-row: 2;
     grid-column: 1/span 3;
-    margin: -8px;
+    max-height: 100px;
+    padding-left: -8px;
+    padding-right: -8px;
 }
 .star{
     max-height: 50px;
@@ -30,13 +31,13 @@ header{
     flex: content;
     flex-direction: row;
     align-items: center;
-    margin-left: 8px;
 
 }
 #text-align{
-    padding-left: 500px;
+    padding-left: 200px;
     color: #588E1F;
-    font-size: xx-large;
+    font-size: 50px;
+    margin: -35px;
 }
 main{
     grid-column: 1/span3;
@@ -50,7 +51,7 @@ main{
     background-color: #FFBAE3;
     margin: 10px;
     border: 2px solid #FFBAE3;
-    border-radius: 10px;
+    border-radius: 5px;
 
 }
 .to-do{
@@ -58,7 +59,7 @@ main{
     margin: 10px;
     max-width: 40%;
     border: 2px solid #FFBAE3;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .description{
     background-color: #FFBAE3;
@@ -66,12 +67,27 @@ main{
     max-width: 350px;
     text-align: center;
     border: 1px solid #FFBAE3;
-    border-radius: 10px;
+    border-radius: 5px;
 
 }
 .smoothie-size{
     max-width: 300px;
     max-height: auto;
-    padding-top: 3px;
+    padding-top: 10px;
     
+}
+footer{
+    grid-column: 1/span3;
+    grid-row: 4;
+    display: flex;
+    flex: content;
+    flex-direction: row;
+    background-color: #FFBAE3;
+    align-items: center;
+}
+.media{
+    max-height: 50px;
+}
+#contact{
+    padding-left: 500px;
 }
