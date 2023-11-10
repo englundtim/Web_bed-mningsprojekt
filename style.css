@@ -52,6 +52,7 @@ main{
     margin: 10px;
     border: 2px solid #FFBAE3;
     border-radius: 5px;
+    font-size: larger;
 
 }
 .to-do{
@@ -60,6 +61,7 @@ main{
     max-width: 40%;
     border: 2px solid #FFBAE3;
     border-radius: 5px;
+    font-size: larger;
 }
 .description{
     background-color: #FFBAE3;
@@ -68,6 +70,7 @@ main{
     text-align: center;
     border: 1px solid #FFBAE3;
     border-radius: 5px;
+    font-size: 15px;
 
 }
 .smoothie-size{
