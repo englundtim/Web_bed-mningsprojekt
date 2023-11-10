@@ -18,8 +18,10 @@ header{
     grid-row: 2;
     grid-column: 1/span 3;
     max-height: 100px;
-    padding-left: -8px;
-    padding-right: -8px;
+    border-top: 2px solid #e3477b;
+    border-bottom: 2px solid #e3477b;
+    margin-right: -8px;
+    margin-left: -8px;
 }
 .star{
     max-height: 50px;
@@ -31,6 +33,7 @@ header{
     flex: content;
     flex-direction: row;
     align-items: center;
+    padding-left: 15px;
 
 }
 #text-align{
@@ -51,25 +54,29 @@ main{
 .recept{
     background-color: #FFBAE3;
     margin: 10px;
-    border: 2px solid #FFBAE3;
+    border: 2px solid #e3477b;
     border-radius: 5px;
     font-size: larger;
-
+    padding-left: 10px;
+    padding-right: 5px;
+    max-width: 20%;
 }
 .to-do{
     background-color: #FFBAE3;
     margin: 10px;
     max-width: 30%;
-    border: 2px solid #FFBAE3;
+    border: 2px solid #e3477b;
     border-radius: 5px;
     font-size: larger;
+    padding-left: 10px;
+    padding-right: 5px;
 }
 .description{
     background-color: #FFBAE3;
     margin: 10px;
     max-width: 350px;
     text-align: center;
-    border: 1px solid #FFBAE3;
+    border: 2px solid #e3477b;
     border-radius: 5px;
     font-size: 15px;
 
@@ -88,6 +95,11 @@ footer{
     flex-direction: row;
     background-color: #FFBAE3;
     align-items: center;
+    margin-left: -8px;
+    margin-right: -8px;
+    border-top: 2px solid #e3477b;
+    border-bottom: 2px solid #e3477b;
+
 }
 .media{
     max-height: 50px;
