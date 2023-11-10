@@ -45,6 +45,7 @@ main{
     display: flex;
     flex: content;
     flex-direction: row;
+    justify-content: space-between;
     margin: 10px;
 }
 .recept{
@@ -58,7 +59,7 @@ main{
 .to-do{
     background-color: #FFBAE3;
     margin: 10px;
-    max-width: 40%;
+    max-width: 30%;
     border: 2px solid #FFBAE3;
     border-radius: 5px;
     font-size: larger;
